@@ -1,0 +1,297 @@
+
+body {
+    background-color: transparent;
+    color: #FFFFFF;
+    font: 14px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 60px 20px;
+}
+html {
+    background: radial-gradient(ellipse farthest-corner at center center , #4786B3 0%, #2E5673 100%) no-repeat fixed 0 0 transparent;
+}
+ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #0084B4;
+    outline: 0 none;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+}
+p a {
+    line-height: inherit;
+}
+.btn, input[type="text"] {
+    font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input[type="text"] {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+    display: inline-block;
+    margin: 0;
+    outline: medium none;
+    padding: 4px;
+    transition: background 0.2s linear 0s;
+    width: 210px;
+}
+input[type="text"]:focus {
+    border-color: #56B4EF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    color: #333333;
+    outline: 0 none;
+}
+.btn {
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#FFFFFF, #DDDDDD);
+    background-repeat: repeat-x;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: visible;
+    padding: 5px 10px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.btn:hover {
+    background-color: #D8D8D8;
+    background-image: linear-gradient(#F8F8F8, #D8D8D8);
+    border-color: #BBBBBB;
+    text-decoration: none;
+}
+.btn:active {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.topbar {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.global-nav, .global-nav-outer {
+    height: 40px;
+}
+.global-nav {
+    position: relative;
+    width: 100%;
+}
+.global-nav .container {
+    margin: 0 auto;
+    max-width: 865px;
+    width: auto;
+}
+.nav, .nav > li {
+    float: left;
+}
+.nav {
+    margin-right: 12px;
+}
+.nav li {
+    display: inline;
+    position: relative;
+}
+.nav li a {
+    color: #BBBBBB;
+    font-size: 12px;
+    position: relative;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+.nav li > a {
+    display: block;
+    font-weight: bold;
+    line-height: 1;
+    padding: 13px 12px 15px;
+}
+.nav > li > a {
+    height: 12px;
+}
+.nav > li > .nav-logo-link {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.nav .active > a, .nav li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav .active > a, .nav .active > a:hover, .nav .dropdown.open .dropdown-toggle {
+    background-color: #222222;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5) inset;
+}
+.nav i {
+    float: left;
+    margin: -4px 6px 0 0;
+}
+.secondary-nav {
+    float: right;
+    margin-left: 6px;
+    margin-right: 0;
+}
+.global-nav {
+    background-color: #252525;
+    background-image: url("twitter_web_sprite_bgs.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+i {
+    background-image: url("twitter_web_sprite_icons.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.bird-etched {
+    background-position: 0 0;
+    height: 26px;
+    width: 34px;
+}
+.bird-topbar-etched, .bird-topbar-blue, .bird-topbar-white {
+    height: 21px;
+    width: 24px;
+}
+.bird-topbar-etched {
+    background-position: -40px 0;
+}
+.bird-topbar-blue {
+    background-position: -80px 0;
+}
+.bird-corpbar, .bird-topbar-phx {
+    float: left;
+    padding: 7px 20px 9px;
+}
+.bird-corpbar:hover, .bird-topbar-phx:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.bird-topbar-white {
+    background-position: -120px 0;
+}
+.canvas {
+    display: block;
+}
+.illustration {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    position: relative;
+}
+.whale-water {
+    background: url("whale_water.png") repeat-x scroll left bottom transparent;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+}
+.body-content {
+    margin: 0 auto;
+    max-width: 865px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+h1, p {
+    position: relative;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    z-index: 10;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 30px 0 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+p, label {
+    color: #E0EFF6;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 10px 0 20px;
+}
+p a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.search-404 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.search-404 #search_label {
+    display: none;
+    margin: 0 0 9px;
+    text-align: center;
+}
+.search-404 .btn, .search-404 input[type="text"] {
+    border-color: #1C5671;
+    font-size: 18px;
+    padding: 9px;
+    vertical-align: middle;
+}
+.search-404 .btn {
+    line-height: 20px;
+    padding: 10px 14px;
+}
+.search-404 input[type="text"] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.25);
+    width: 410px;
+}
+.search-404 input[type="text"]:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset, 0 0 10px rgba(255, 255, 255, 0.75);
+}
+.footer {
+    font-size: 11px;
+    margin: 0 10%;
+    text-align: center;
+}
+.footer ul {
+    margin-bottom: 5px;
+}
+.footer li {
+    display: inline;
+    line-height: 20px;
+    margin: 0 5px;
+}
+.footer li, .footer a {
+    color: #CCE3ED;
+}
+.footer a:hover {
+    color: #FFFFFF;
+}
+h1 {
+    font-size: 30px;
+}
+.whale-water {
+    margin-bottom: -10px;
+}
+.search-404 input[type="text"] {
+    display: block;
+    margin: 0 auto 10px;
+    width: 90%;
+}
+.search-404 .btn {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.canvas {
+    bottom: 10%;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.illustration {
+    max-width: 50%;
+}
+body {
+    padding: 60px;
+}
