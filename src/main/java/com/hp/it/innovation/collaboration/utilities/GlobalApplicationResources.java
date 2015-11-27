@@ -2,6 +2,9 @@ package com.hp.it.innovation.collaboration.utilities;
 
 import org.springframework.beans.factory.annotation.Value;
 
+/**
+ Git test
+ */
 public class GlobalApplicationResources {
 
     private @Value("${innovation.image.host}") String imageHost;
