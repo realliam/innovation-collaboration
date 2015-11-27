@@ -5,7 +5,7 @@ import java.util.List;
 public class Team extends Component {
 
     /**
-     *
+     * team
      */
     private static final long serialVersionUID = 1957697051745158006L;
     
