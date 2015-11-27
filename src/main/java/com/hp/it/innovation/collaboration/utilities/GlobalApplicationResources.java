@@ -3,7 +3,7 @@ package com.hp.it.innovation.collaboration.utilities;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
- Git test
+ Git test test again
  */
 public class GlobalApplicationResources {
 
