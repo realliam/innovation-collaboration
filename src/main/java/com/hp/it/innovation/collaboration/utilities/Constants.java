@@ -1,5 +1,8 @@
 package com.hp.it.innovation.collaboration.utilities;
 
+/**
+ test feature
+ */
 public class Constants {
     public static final String IMAGE_SUFFIX = "INNOVATION";
     
