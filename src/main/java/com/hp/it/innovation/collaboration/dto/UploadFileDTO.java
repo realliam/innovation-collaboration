@@ -1,6 +1,6 @@
 package com.hp.it.innovation.collaboration.dto;
 
-
+// User
 public class UploadFileDTO {
 
     private String name;

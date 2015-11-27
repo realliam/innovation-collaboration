@@ -7,7 +7,7 @@ import org.apache.commons.lang.StringUtils;
 public class UserDTO extends ComponentDTO {
 
     /**
-     *
+     * User
      */
     private static final long serialVersionUID = -797071419764919883L;
     private String displayName;
