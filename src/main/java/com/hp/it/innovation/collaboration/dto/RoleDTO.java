@@ -2,6 +2,7 @@ package com.hp.it.innovation.collaboration.dto;
 
 import java.util.List;
 
+//Role
 public class RoleDTO extends ComponentDTO {
 
     /**
