@@ -12,6 +12,9 @@ import com.hp.it.innovation.collaboration.common.UserRoleEnum;
 import com.hp.it.innovation.collaboration.dto.RoleDTO;
 import com.hp.it.innovation.collaboration.dto.UserDTO;
 
+/**
+ Merge test
+ */
 public class Utils {
     public static String populateUploadFileName(String originalFileName){
         Date date = new Date();
